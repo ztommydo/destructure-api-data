@@ -1,0 +1,21 @@
+{
+    "name": "tommydo/destructure-api-data",
+    "description": "The plugin to destructure an API's result data and generate new structure base on pre-defined schema",
+    "type": "library",
+    "license": "proprietary",
+    "autoload": {
+        "psr-4": {
+            "TommyDo\\DestructureApiData\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "TommyDo",
+            "email": "tommy.do@zolo.ca"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require-dev": {
+        "phpunit/phpunit": "^10"
+    }
+}
